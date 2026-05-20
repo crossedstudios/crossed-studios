@@ -172,7 +172,7 @@
     opacity: 1;
   }
   
- /* MOTION */
+/* MOTION SECTION */
 .motion {
   background:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
@@ -180,45 +180,80 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #1a1a1a; /* fallback */
+  background-color: #1a1a1a;
+  padding: 60px 20px;
 }
-  
-/* Make the section feel tighter + less massive */
+
+/* The Randomized Masonry Grid */
 .video-grid {
-  max-width: 1000px;                /* smaller than --wrap */
+  max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns desktop */
-  gap: 20px;
+  grid-template-columns: repeat(2, 1fr); /* Keep 2 columns on desktop */
+  gap: 40px 30px; /* Generous vertical gap creates breathing room */
 }
-  
+
 .video-card {
   border: 1px solid var(--line);
   background: #0b0b0b;
+  align-self: start; /* Prevents cards from stretching to match heights */
 }
-  
+
+/* RANDOMIZED OFFSETS: This breaks the uniform rows */
+/* Shifting the entire left column down slightly */
+.video-grid .video-card:nth-child(odd) {
+  transform: translateY(30px);
+}
+
+/* Making specific cards stand out or size differently */
+.video-grid .video-card:nth-child(3) {
+  transform: translateY(-10px); /* Pulls this one up */
+}
+
+.video-grid .video-card:nth-child(6) {
+  transform: translateY(50px); /* Drops this one lower */
+}
+
+.video-grid .video-card:nth-child(2n) {
+  margin-left: 10px; /* Subtle horizontal asymmetry */
+}
+
+/* Video standard styling */
 .video-embed {
   aspect-ratio: 16 / 9;
   width: 100%;
   background: #000;
   position: relative;
 }
-  
-/* ADD THIS: Forces the actual YouTube player to fill the 16:9 box completely */
+
 .video-embed iframe {
   width: 100%;
   height: 100%;
   border: none;
   display: block;
 }
-  
+
 .video-title {
   padding: 14px 12px 18px;
   text-align: center;
   letter-spacing: 0.06em;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   color: var(--muted);
+}
+
+/* Mobile responsive - stack them with natural spacing */
+@media (max-width: 768px) {
+  .video-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .video-grid .video-card:nth-child(odd),
+  .video-grid .video-card:nth-child(3),
+  .video-grid .video-card:nth-child(6) {
+    transform: none;
+    margin-left: 0;
+  }
 }
   
   /* FOOTER */
