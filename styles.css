@@ -580,4 +580,71 @@
   .video-title{
     margin-top: auto;
   }
+
+/* --- Rates Section Styles --- */
+.rates {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.rates-card {
+  background: #111; /* Adjust background matching your theme layout */
+  border: 1px solid #222;
+  padding: 2rem;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rates-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin-bottom: 0.5rem;
+}
+
+.rates-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.rates-price {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.rates-price .currency, 
+.rates-price .per-hour {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #888;
+  margin-left: 0.25rem;
+}
+
+.rates-text {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ccc;
+  flex-grow: 1; /* Pushes the extra fee element to the bottom if cards stretch */
+  margin-bottom: 1.5rem;
+}
+
+.rates-extra {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #a5a5a5;
+  border-top: 1px solid #222;
+  padding-top: 0.75rem;
+}
   
