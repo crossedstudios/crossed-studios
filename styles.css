@@ -576,3 +576,11 @@ section {
     gap: 16px;
   }
 }
+.brand {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 4px 18px; /* Tighter top/bottom padding gives the logo breathing room without expanding the bar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
