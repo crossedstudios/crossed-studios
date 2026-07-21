@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
       techup: [
         { type: "video", src: "TechUp Final For Website and Youtube (1).mp4", title: "Techup Showcase", aspect: "tall" },
         { type: "video", src: "TECHUP FINAL mp4.mp4", title: "Techup Promo", aspect: "medium" },
-        { type: "video", src: "Techup Short Vers.mp4", title: "Techup Short Cut", aspect: "short" }
+        { type: "video", src: "Techup Short Vers (1).mp4", title: "Techup Short Cut", aspect: "short" }
       ],
       cssa: [
         { type: "video", src: "CSSA X HKSS Mahjong Night .mp4", title: "Mahjong Night", aspect: "tall" },
