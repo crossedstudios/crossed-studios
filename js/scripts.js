@@ -109,18 +109,18 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       techup: [
         { type: "video", src: "TechUp Final For Website and Youtube (1).mp4", title: "Techup Showcase", aspect: "tall" },
-        { type: "video", src: "TECHUP FINAL.mp4", title: "Techup Promo", aspect: "medium" },
+        { type: "video", src: "TECHUP FINAL mp4.mp4", title: "Techup Promo", aspect: "medium" },
         { type: "video", src: "Techup Short Vers.mp4", title: "Techup Short Cut", aspect: "short" }
       ],
       cssa: [
         { type: "video", src: "CSSA X HKSS Mahjong Night .mp4", title: "Mahjong Night", aspect: "tall" },
         { type: "video", src: "cssa reel .MP4", title: "CSSA Reel", aspect: "medium" },
-        { type: "video", src: "CSSA ClUB EXPO (1).MP4", title: "Club Expo", aspect: "short" },
+        { type: "video", src: "CSSA ClUB EXPO (1).mp4", title: "Club Expo", aspect: "short" },
         { type: "video", src: "Timeline 1.mp4", title: "Timeline Video", aspect: "medium" }
       ],
       personal: [
         { type: "video", src: "China char post.mp4", title: "China Travel Reel", aspect: "tall" },
-        { type: "video", src: "zeroz bts shoot (1).MP4", title: "Zeroz BTS", aspect: "medium" },
+        { type: "video", src: "zeroz bts shoot (1).mp4", title: "Zeroz BTS", aspect: "medium" },
         { type: "video", src: "0210 necklace.MP4", title: "Product Shoot", aspect: "short" },
         { type: "image", src: "DSC00310.jpg", title: "Personal Photography", aspect: "tall" },
         { type: "image", src: "DSC00364.jpg", title: "Personal Photography", aspect: "medium" },
