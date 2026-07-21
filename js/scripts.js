@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const portfolioData = {
       food: [
         { type: "image", src: "beefburger.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" },
-        { type: "image", src: "beefstirfry .jpg", title: "Shea Lakeside Kitchen", aspect: "short" },
+        { type: "image", src: "beefstirfry.jpg", title: "Shea Lakeside Kitchen", aspect: "short" },
         { type: "image", src: "chickenburger.jpg", title: "Shea Lakeside Kitchen", aspect: "tall" },
         { type: "image", src: "chicken.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" },
         { type: "image", src: "fries.jpg", title: "Shea Lakeside Kitchen", aspect: "short" },
