@@ -75,16 +75,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // ==================================================
     const portfolioData = {
       food: [
-        { type: "image", src: "beef burger.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" },
-        { type: "image", src: "beef stir fry .jpg", title: "Shea Lakeside Kitchen", aspect: "short" },
-        { type: "image", src: "chicken burger.jpg", title: "Shea Lakeside Kitchen", aspect: "tall" },
+        { type: "image", src: "beefburger.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" },
+        { type: "image", src: "beefstirfry .jpg", title: "Shea Lakeside Kitchen", aspect: "short" },
+        { type: "image", src: "chickenburger.jpg", title: "Shea Lakeside Kitchen", aspect: "tall" },
         { type: "image", src: "chicken.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" },
         { type: "image", src: "fries.jpg", title: "Shea Lakeside Kitchen", aspect: "short" },
-        { type: "image", src: "fry platter.jpg", title: "Shea Lakeside Kitchen", aspect: "tall" },
-        { type: "image", src: "jalapeno bites.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" },
-        { type: "image", src: "mac bites.jpg", title: "Shea Lakeside Kitchen", aspect: "short" },
-        { type: "image", src: "stir fry rice.jpg", title: "Shea Lakeside Kitchen", aspect: "tall" },
-        { type: "image", src: "group food.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" }
+        { type: "image", src: "fryplatter.jpg", title: "Shea Lakeside Kitchen", aspect: "tall" },
+        { type: "image", src: "jalapenobites.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" },
+        { type: "image", src: "macbites.jpg", title: "Shea Lakeside Kitchen", aspect: "short" },
+        { type: "image", src: "stirfryrice.jpg", title: "Shea Lakeside Kitchen", aspect: "tall" },
+        { type: "image", src: "groupfood.jpg", title: "Shea Lakeside Kitchen", aspect: "medium" }
       ],
       events: [
         { type: "image", src: "K90A8317.jpg", title: "Event Coverage", aspect: "tall" },
