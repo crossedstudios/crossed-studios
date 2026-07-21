@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { type: "image", src: "IMG_6792.jpg", title: "Personal Photography", aspect: "medium" },
         { type: "image", src: "IMG_6794.jpg", title: "Personal Photography", aspect: "short" },
         { type: "image", src: "IMG_7055.jpg", title: "Personal Photography", aspect: "tall" },
-        { type: "image", src: "IMG_7893.jpg", title: "Personal Photography", aspect: "medium" }
+        
       ]
     };
   
