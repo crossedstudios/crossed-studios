@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
         { type: "image", src: "K90A9551.jpg", title: "Event Coverage", aspect: "tall" }
       ],
       techup: [
-        { type: "video", src: "TechUp Final For Website and Youtube.mp4", title: "Techup Showcase", aspect: "tall" },
+        { type: "video", src: "TechUp Final For Website and Youtube (1).mp4", title: "Techup Showcase", aspect: "tall" },
         { type: "video", src: "TECHUP FINAL.mp4", title: "Techup Promo", aspect: "medium" },
         { type: "video", src: "Techup Short Vers.mp4", title: "Techup Short Cut", aspect: "short" }
       ],
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       personal: [
         { type: "video", src: "China char post.mp4", title: "China Travel Reel", aspect: "tall" },
-        { type: "video", src: "zeroz bts shoot.MP4", title: "Zeroz BTS", aspect: "medium" },
+        { type: "video", src: "zeroz bts shoot (1).MP4", title: "Zeroz BTS", aspect: "medium" },
         { type: "video", src: "0210 necklace.MP4", title: "Product Shoot", aspect: "short" },
         { type: "image", src: "DSC00310.jpg", title: "Personal Photography", aspect: "tall" },
         { type: "image", src: "DSC00364.jpg", title: "Personal Photography", aspect: "medium" },
