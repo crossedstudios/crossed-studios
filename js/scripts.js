@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
       cssa: [
         { type: "video", src: "CSSA X HKSS Mahjong Night .mp4", title: "Mahjong Night", aspect: "tall" },
         { type: "video", src: "cssa reel .MP4", title: "CSSA Reel", aspect: "medium" },
-        { type: "video", src: "CSSA ClUB EXPO.MP4", title: "Club Expo", aspect: "short" },
+        { type: "video", src: "CSSA ClUB EXPO (1).MP4", title: "Club Expo", aspect: "short" },
         { type: "video", src: "Timeline 1.mp4", title: "Timeline Video", aspect: "medium" }
       ],
       personal: [
