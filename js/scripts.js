@@ -118,6 +118,11 @@ document.addEventListener("DOMContentLoaded", () => {
         { type: "video", src: "CSSA ClUB EXPO (1).mp4", title: "Club Expo", aspect: "short" },
         { type: "video", src: "Timeline 1.mp4", title: "Timeline Video", aspect: "medium" }
       ],
+      sumthindumplin: [
+        { type: "video", src: "your-apparel-reel.mp4", title: "Apparel Campaign", aspect: "tall" },
+        { type: "image", src: "your-britomart-photo1.jpg", title: "Britomart Shoot", aspect: "medium" },
+        { type: "image", src: "your-britomart-photo2.jpg", title: "Britomart Shoot", aspect: "tall" }
+      ],
       personal: [
         { type: "video", src: "China char post.mp4", title: "China Travel Reel", aspect: "tall" },
         { type: "video", src: "zeroz bts shoot (1).mp4", title: "Zeroz BTS", aspect: "medium" },
@@ -128,11 +133,9 @@ document.addEventListener("DOMContentLoaded", () => {
         { type: "image", src: "DSC09534.jpg", title: "Personal Photography", aspect: "tall" },
         { type: "image", src: "IMG_6792.jpg", title: "Personal Photography", aspect: "medium" },
         { type: "image", src: "IMG_6794.jpg", title: "Personal Photography", aspect: "short" },
-        { type: "image", src: "IMG_7055.jpg", title: "Personal Photography", aspect: "tall" },
-        
+        { type: "image", src: "IMG_7055.jpg", title: "Personal Photography", aspect: "tall" }
       ]
     };
-  
     let currentCategory = "food";
     let currentIndex = 0;
     let modalMediaType = "all";
